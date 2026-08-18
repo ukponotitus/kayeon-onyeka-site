@@ -6,126 +6,121 @@ export function HomeStats() {
   return (
     <section className="relative bg-[#0D0608] text-[#FAF8F5] overflow-hidden">
       {/* =====================================================
-          MOBILE: Stacked flow layout (below lg)
+          MOBILE: Full-screen "Hero Slices" layout (below lg)
       ===================================================== */}
-      <div className="lg:hidden px-6 py-24 md:py-32">
-        {/* 8 YEARS OF */}
+      <div className="lg:hidden flex flex-col">
+        
+        {/* Slice 1: 8 YEARS OF */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, scale: 0.98 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1.2 }}
+          transition={{ duration: 1.2, ease: [0.25, 0.1, 0.25, 1] }}
+          className="relative min-h-[85vh] w-full overflow-hidden"
         >
-          <div className="relative w-[180px] h-[220px] md:w-[240px] md:h-[290px] overflow-hidden mb-6 md:mb-8">
-            <img
-              src="/img/keyoen5.jpeg"
-              alt="Creative storytelling"
-              className="w-full h-full object-cover opacity-85"
-            />
-            <div className="absolute inset-0 bg-black/20" />
-          </div>
+          <img
+            src="/img/keyoen5.jpeg"
+            alt="Creative storytelling"
+            className="absolute inset-0 w-full h-full object-cover object-center opacity-70 grayscale-[10%]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0D0608]/90 via-[#0D0608]/20 to-transparent" />
           <h2
             style={{
               fontFamily: "var(--bodoni-font)",
               fontWeight: 400,
-              textShadow: "0 2px 12px rgba(0,0,0,0.35)",
+              textShadow: "0 4px 20px rgba(0,0,0,0.6)",
             }}
-            className="text-[48px] sm:text-[64px] md:text-[80px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/35"
+            className="absolute bottom-8 right-6 sm:bottom-12 sm:right-10 text-[48px] sm:text-[72px] md:text-[100px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/85 text-right"
           >
             8 YEARS OF
           </h2>
         </motion.div>
 
-        {/* SHAPING STORIES */}
+        {/* Slice 2: SHAPING STORIES */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, scale: 0.98 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1.2, delay: 0.15 }}
-          className="mt-12 md:mt-16"
+          transition={{ duration: 1.2, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+          className="relative min-h-[85vh] w-full overflow-hidden"
         >
-          <div className="flex flex-col sm:flex-row sm:items-center gap-6 md:gap-8">
-            <div className="relative w-[200px] h-[170px] md:w-[280px] md:h-[230px] overflow-hidden shrink-0">
-              <img
-                src="/img/keyoen5.jpeg"
-                alt="Creative campaign production"
-                className="w-full h-full object-cover opacity-85"
-              />
-              <div className="absolute inset-0 bg-black/25" />
-            </div>
-            <h2
-              style={{
-                fontFamily: "var(--bodoni-font)",
-                fontWeight: 400,
-                textShadow: "0 2px 12px rgba(0,0,0,0.4)",
-              }}
-              className="text-right sm:text-left text-[52px] sm:text-[64px] md:text-[80px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/35"
-            >
-              SHAPING
-              <br />
-              STORIES
-            </h2>
-          </div>
-        </motion.div>
-
-        {/* CRAFTING CAMPAIGNS */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.2, delay: 0.25 }}
-          className="mt-12 md:mt-16"
-        >
-          <div className="flex flex-col sm:flex-row sm:items-center gap-6 md:gap-8">
-            <div className="relative w-[180px] h-[220px] md:w-[260px] md:h-[310px] overflow-hidden shrink-0">
-              <img
-                src=""
-                alt="Film and creative production"
-                className="w-full h-full object-cover opacity-85"
-              />
-              <div className="absolute inset-0 bg-black/25" />
-            </div>
-            <h2
-              style={{
-                fontFamily: "var(--bodoni-font)",
-                fontWeight: 400,
-                textShadow: "0 2px 12px rgba(0,0,0,0.4)",
-              }}
-              className="text-[52px] sm:text-[64px] md:text-[80px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/35"
-            >
-              CRAFTING
-              <br />
-              CAMPAIGNS,
-            </h2>
-          </div>
-        </motion.div>
-
-        {/* AND BUILDING */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.2, delay: 0.35 }}
-          className="mt-12 md:mt-16"
-        >
+          <img
+            src="/img/kayeon-2.jpg"
+            alt="Creative campaign production"
+            className="absolute inset-0 w-full h-full object-cover object-center opacity-75"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0D0608]/80 via-[#0D0608]/20 to-transparent" />
           <h2
             style={{
               fontFamily: "var(--bodoni-font)",
               fontWeight: 400,
-              textShadow: "0 2px 12px rgba(0,0,0,0.4)",
+              textShadow: "0 4px 20px rgba(0,0,0,0.6)",
             }}
-            className="text-[52px] sm:text-[64px] md:text-[80px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/35"
+            className="absolute top-8 left-6 sm:top-12 sm:left-10 text-[48px] sm:text-[72px] md:text-[100px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/85 text-left"
           >
-            AND BUILDING
+            SHAPING
+            <br />
+            STORIES
           </h2>
         </motion.div>
+
+        {/* Slice 3: CRAFTING CAMPAIGNS */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.98 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+          className="relative min-h-[85vh] w-full overflow-hidden"
+        >
+          <img
+            src="/img/keyoen5.jpeg"
+            alt="Film and creative production"
+            className="absolute inset-0 w-full h-full object-cover object-center opacity-70"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0D0608]/90 via-[#0D0608]/20 to-transparent" />
+          <h2
+            style={{
+              fontFamily: "var(--bodoni-font)",
+              fontWeight: 400,
+              textShadow: "0 4px 20px rgba(0,0,0,0.6)",
+            }}
+            className="absolute bottom-8 right-6 sm:bottom-12 sm:right-10 text-[48px] sm:text-[72px] md:text-[100px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/85 text-right"
+          >
+            CRAFTING
+            <br />
+            CAMPAIGNS,
+          </h2>
+        </motion.div>
+
+        {/* Slice 4: AND BUILDING - Just pure typography */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+          className="relative min-h-[50vh] w-full flex items-center justify-center py-16"
+        >
+          <div className="bg-[#0D0608] w-full h-full flex items-center justify-center">
+            <h2
+              style={{
+                fontFamily: "var(--bodoni-font)",
+                fontWeight: 400,
+                textShadow: "0 4px 20px rgba(0,0,0,0.6)",
+              }}
+              className="text-center text-[48px] sm:text-[72px] md:text-[100px] leading-[0.78] tracking-[-0.055em] text-[#FAF8F5]/35"
+            >
+              AND BUILDING
+            </h2>
+          </div>
+        </motion.div>
+
       </div>
 
       {/* =====================================================
           DESKTOP: Absolute editorial layout (lg and above)
+          (This remains completely unchanged - keep your existing desktop layout below!)
       ===================================================== */}
       <div className="hidden lg:block relative min-h-[150vh] xl:min-h-[160vh]">
-
         {/* IMAGE 1 */}
         <motion.div
           initial={{ opacity: 0, scale: 0.96 }}

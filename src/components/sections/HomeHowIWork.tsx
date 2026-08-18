@@ -71,8 +71,7 @@ export function HomeHowIWork() {
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
-            className="relative -mt-24 ml-auto w-[55%] h-[220px] md:h-[280px] z-10 overflow-hidden"
-          >
+ className="relative -mt-20 md:-mt-24 ml-auto w-[55%] h-[220px] md:h-[280px] z-10 overflow-hidden"          >
             <img
               src="/img/keyoan4.jpeg"
               alt="Creative collaboration"

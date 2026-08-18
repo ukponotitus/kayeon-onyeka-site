@@ -27,9 +27,9 @@ export function HomeHero() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          background:
-            "linear-gradient(180deg, rgba(13,6,8,0.55) 0%, rgba(13,6,8,0.35) 40%, rgba(13,6,8,0.7) 100%)",
-        }}
+    background:
+      "linear-gradient(180deg, rgba(13,6,8,0.85) 0%, rgba(13,6,8,0.25) 40%, rgba(13,6,8,0.85) 100%)", // Increased opacity at top/bottom
+  }}
       />
 
       {/* Main content */}
@@ -66,13 +66,13 @@ export function HomeHero() {
 >
           I TELL THE
           <br />
-          <em className="text-[#FAF8F5] not-italic italic  sm:pl-12 md:pl-80 text-[#FAF8F5]/95">
-            WHOLE
-          </em>
+          <em className="text-[#FAF8F5] not-italic italic sm:pl-12 md:pl-80 text-[#FAF8F5]/95">
+    WHOLE
+  </em>
           <br />
-          <span className="text-[#FAF8F5]/80 pl-8 sm:pl-16 md:pl-32">
-            STORY.
-          </span>
+            <span className="text-[#FAF8F5]/80 pl-4 sm:pl-16 md:pl-32">
+    STORY.
+  </span>
         </motion.h1>
 
         {/* <motion.button
