@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/titus/Documents/Projects/kayeon-onyeka-site/src/app/layout\":[\"static/media/0c8ce7d7d9e89600-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
