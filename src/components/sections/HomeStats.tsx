@@ -18,7 +18,7 @@ export function HomeStats() {
         >
           <div className="relative w-[180px] h-[220px] md:w-[240px] md:h-[290px] overflow-hidden mb-6 md:mb-8">
             <img
-              src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=900&q=85"
+              src="/img/keyoen5.jpeg"
               alt="Creative storytelling"
               className="w-full h-full object-cover opacity-85"
             />
@@ -47,7 +47,7 @@ export function HomeStats() {
           <div className="flex flex-col sm:flex-row sm:items-center gap-6 md:gap-8">
             <div className="relative w-[200px] h-[170px] md:w-[280px] md:h-[230px] overflow-hidden shrink-0">
               <img
-                src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=85"
+                src="/img/keyoen5.jpeg"
                 alt="Creative campaign production"
                 className="w-full h-full object-cover opacity-85"
               />
@@ -79,7 +79,7 @@ export function HomeStats() {
           <div className="flex flex-col sm:flex-row sm:items-center gap-6 md:gap-8">
             <div className="relative w-[180px] h-[220px] md:w-[260px] md:h-[310px] overflow-hidden shrink-0">
               <img
-                src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=85"
+                src=""
                 alt="Film and creative production"
                 className="w-full h-full object-cover opacity-85"
               />
@@ -135,7 +135,7 @@ export function HomeStats() {
           className="absolute top-0 left-[46%] w-[280px] h-[340px] xl:w-[320px] xl:h-[390px] z-10 overflow-hidden"
         >
           <img
-            src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=900&q=85"
+            src="/img/kayeon-3.jpg"
             alt="Creative storytelling"
             className="w-full h-full object-cover opacity-85"
           />
@@ -151,7 +151,7 @@ export function HomeStats() {
           className="absolute top-[43%] left-0 w-[380px] h-[290px] xl:w-[430px] xl:h-[330px] z-10 overflow-hidden"
         >
           <img
-            src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=85"
+            src="/img/kayeon-2.jpg"
             alt="Creative campaign production"
             className="w-full h-full object-cover opacity-85"
           />
@@ -167,7 +167,7 @@ export function HomeStats() {
           className="absolute top-[72%] right-[8%] w-[300px] h-[360px] xl:w-[350px] xl:h-[420px] z-10 overflow-hidden"
         >
           <img
-            src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=85"
+            src="/img/kayeon-1.jpg"
             alt="Film and creative production"
             className="w-full h-full object-cover opacity-85"
           />

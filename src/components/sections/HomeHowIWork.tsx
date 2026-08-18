@@ -27,7 +27,7 @@ export function HomeHowIWork() {
           className="relative w-full h-[60vh] overflow-hidden"
         >
           <img
-            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1400&q=85"
+            src="/img/keyoen5.jpeg"
             alt="Creative portrait"
             className="w-full h-full object-cover object-center grayscale-[15%]"
           />
@@ -74,7 +74,7 @@ export function HomeHowIWork() {
             className="relative -mt-24 ml-auto w-[55%] h-[220px] md:h-[280px] z-10 overflow-hidden"
           >
             <img
-              src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85"
+              src="/img/keyoan4.jpeg"
               alt="Creative collaboration"
               className="w-full h-full object-cover"
             />
@@ -120,7 +120,7 @@ export function HomeHowIWork() {
           className="absolute top-0 left-0 w-[62%] xl:w-[61%] h-[78vh] xl:h-[80vh] z-10 overflow-hidden"
         >
           <img
-            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1400&q=85"
+            src="/img/keyoan4.jpeg"
             alt="Creative portrait"
             className="w-full h-full object-cover object-center grayscale-[15%]"
           />
@@ -136,7 +136,7 @@ export function HomeHowIWork() {
           className="absolute top-[42%] left-[50%] w-[30%] xl:w-[29%] h-[390px] xl:h-[430px] z-20 overflow-hidden"
         >
           <img
-            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85"
+            src="/img/keyoen5.jpeg"
             alt="Creative collaboration"
             className="w-full h-full object-cover"
           />

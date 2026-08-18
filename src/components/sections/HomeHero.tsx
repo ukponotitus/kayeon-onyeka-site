@@ -1,5 +1,3 @@
-// Home page hero — full-screen cinematic video opening.
-
 "use client";
 
 import Link from "next/link";
